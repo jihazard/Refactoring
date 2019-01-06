@@ -11,6 +11,21 @@ public class CustomerTest {
 
 
     @Test
+    public void getFrequentRentalPointNewRelaseTest_(){
+        Rental aa = new Rental(new Movie("titan war", Movie.NEW_RELEASE),2);
+        int result = aa.getFrequentRenterPoint();
+
+        assertEquals(2,result);
+    }
+
+    @Test
+    public void getFrequentRentalPointNewRelaseElseTest_(){
+        Rental aa = new Rental(new Movie("titan war", Movie.REGULAR),2);
+        int result = aa.getFrequentRenterPoint();
+        assertEquals(1,result);
+    }
+
+    @Test
     public void amountForTestRegular() {
 
         double result = new Rental(new Movie("dd",Movie.NEW_RELEASE),1).getCharge();
@@ -47,8 +62,8 @@ public class CustomerTest {
         customer.addRental(new Rental(new Movie("타이타닉2",Movie.NEW_RELEASE),2));
         String result = customer.statement();
         System.out.println(result);
-        String expected = "yjh님 기록 \n타이타닉/3.0point:3.0/memberPoint:1\n"
-                                    +"타이타닉2/6.0point:9.0/memberPoint:3\n";
+        String expected = "yjh님 기록 \n타이타닉/3.0point:9.0/memberPoint:3.0\n"
+                                    +"타이타닉2/6.0point:9.0/memberPoint:3.0\n";
         assertEquals(expected ,result);
 
     }

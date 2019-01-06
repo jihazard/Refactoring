@@ -22,30 +22,40 @@ public class Customer {
 
 
     public String statement() {
-        double totalAmount = 0;
+
         int frequentRenterPoint = 0;
         Enumeration rentals = _rentals.elements();
-        String result = get_name() +"님 기록 \n";
-        while(rentals.hasMoreElements()){
-            double thisAmount = 0;
+        String result = get_name() + "님 기록 \n";
+        while (rentals.hasMoreElements()) {
             Rental each = (Rental) rentals.nextElement();
-
-            thisAmount = each.getCharge();
-
-            //적립포인트
-            frequentRenterPoint ++;
-
-            if((each.get_movie().get_priceCode() == Movie.NEW_RELEASE) &&
-                each.get_dayRented() > 1) frequentRenterPoint ++;
-
-            result += each.get_movie().get_title() +"/"+thisAmount;
-
-            totalAmount += thisAmount;
-
-            result += "point:"+totalAmount+"/memberPoint:" + frequentRenterPoint +"\n";
+            result += each.get_movie().get_title() + "/" + each.getCharge();
+            result += "point:" + getTotalCharge() + "/memberPoint:" + getfrequentRentPoint() + "\n";
 
         }
         return result;
     }
+
+    private double getTotalCharge() {
+        double result = 0;
+        Enumeration rentals = _rentals.elements();
+
+        while (rentals.hasMoreElements()) {
+            Rental each = (Rental) rentals.nextElement();
+            result += each.getCharge();
+        }
+        return result;
+    }
+    private double getfrequentRentPoint() {
+        double result = 0;
+        Enumeration rentals = _rentals.elements();
+
+        while (rentals.hasMoreElements()) {
+            Rental each = (Rental) rentals.nextElement();
+            result += each.getFrequentRenterPoint();
+        }
+        return result;
+    }
+
+
 
 }
