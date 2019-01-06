@@ -2,13 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2dd29f7b-dd25-4fbe-a32c-d346a9d0834e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/chapter1/package-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter1/rentalshop/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter1/rentalshop/CustomerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter1/rentalshop/Movie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter1/rentalshop/Rental.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter1/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter1/CustomerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter1/Movie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter1/Rental.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Refactoring.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Refactoring.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Refactoring/chapter1/rentalshop/Customer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Refactoring/chapter1/rentalshop/CustomerTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Refactoring/chapter1/rentalshop/Movie.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Refactoring/chapter1/rentalshop/Rental.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter1/rentalshop/Customer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter1/rentalshop/CustomerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter1/rentalshop/Movie.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter1/rentalshop/Rental.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,7 +25,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.67316437">
+    <splitter split-orientation="horizontal" split-proportion="0.37940198">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="false">
@@ -36,55 +43,58 @@
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/chapter1/rentalshop/Rental.java">
+            <entry file="file://$PROJECT_DIR$/src/chapter1/Movie.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="183">
-                  <caret line="27" column="27" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
+                <state relative-caret-position="315">
+                  <caret line="21" column="26" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
                   <folding>
-                    <element signature="e#265#266#0" expanded="true" />
-                    <element signature="e#294#295#0" expanded="true" />
-                    <element signature="e#337#338#0" expanded="true" />
-                    <element signature="e#373#374#0" expanded="true" />
-                    <element signature="e#408#409#0" expanded="true" />
-                    <element signature="e#442#443#0" expanded="true" />
-                    <element signature="e#493#494#0" expanded="true" />
-                    <element signature="e#539#540#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/chapter1/rentalshop/Customer.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="365">
-                  <caret line="36" column="8" selection-start-line="36" selection-start-column="8" selection-end-line="38" selection-end-column="123" />
-                  <folding>
-                    <element signature="e#212#213#0" expanded="true" />
-                    <element signature="e#246#247#0" expanded="true" />
-                    <element signature="e#293#294#0" expanded="true" />
-                    <element signature="e#322#323#0" expanded="true" />
-                    <element signature="e#361#362#0" expanded="true" />
-                    <element signature="e#389#390#0" expanded="true" />
+                    <element signature="e#387#388#0" expanded="true" />
+                    <element signature="e#416#417#0" expanded="true" />
+                    <element signature="e#533#534#0" expanded="true" />
+                    <element signature="e#566#567#0" expanded="true" />
+                    <element signature="e#618#619#0" expanded="true" />
+                    <element signature="e#662#663#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/chapter1/rentalshop/Movie.java">
+            <entry file="file://$PROJECT_DIR$/src/chapter1/Rental.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="345">
-                  <caret line="23" column="31" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
+                <state relative-caret-position="255">
+                  <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
                   <folding>
-                    <element signature="e#399#400#0" expanded="true" />
-                    <element signature="e#428#429#0" expanded="true" />
-                    <element signature="e#472#473#0" expanded="true" />
-                    <element signature="e#508#509#0" expanded="true" />
-                    <element signature="e#575#576#0" expanded="true" />
-                    <element signature="e#624#625#0" expanded="true" />
-                    <element signature="e#668#669#0" expanded="true" />
+                    <element signature="e#250#251#0" expanded="true" />
+                    <element signature="e#279#280#0" expanded="true" />
+                    <element signature="e#313#314#0" expanded="true" />
+                    <element signature="e#346#347#0" expanded="true" />
                   </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/chapter1/Customer.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="225">
+                  <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                    <element signature="e#174#175#0" expanded="true" />
+                    <element signature="e#208#209#0" expanded="true" />
+                    <element signature="e#240#241#0" expanded="true" />
+                    <element signature="e#268#269#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Refactoring.iml">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="403">
+                  <caret line="27" column="19" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
                 </state>
               </provider>
             </entry>
@@ -94,12 +104,14 @@
       <split-second>
         <leaf>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/chapter1/rentalshop/CustomerTest.java">
+            <entry file="file://$PROJECT_DIR$/src/chapter1/CustomerTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="315">
-                  <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+                <state relative-caret-position="381">
+                  <caret line="31" column="3" selection-start-line="31" selection-start-column="3" selection-end-line="31" selection-end-column="3" />
                   <folding>
                     <element signature="imports" expanded="true" />
+                    <element signature="e#577#578#0" expanded="true" />
+                    <element signature="e#632#633#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -124,18 +136,26 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/chapter1/rentalshop/Movie.java" />
-        <option value="$PROJECT_DIR$/src/chapter1/rentalshop/CustomerTest.java" />
         <option value="$PROJECT_DIR$/src/chapter1/rentalshop/Rental.java" />
         <option value="$PROJECT_DIR$/src/chapter1/rentalshop/Customer.java" />
+        <option value="$PROJECT_DIR$/src/chapter1/rentalshop/Price.java" />
+        <option value="$PROJECT_DIR$/src/chapter1/rentalshop/price/NewReleasePrice.java" />
+        <option value="$PROJECT_DIR$/src/chapter1/rentalshop/price/RegularPrice.java" />
+        <option value="$PROJECT_DIR$/src/chapter1/rentalshop/Movie.java" />
+        <option value="$PROJECT_DIR$/src/chapter1/rentalshop/price/Price.java" />
+        <option value="$PROJECT_DIR$/src/chapter1/rentalshop/price/ChildrenPrice.java" />
+        <option value="$PROJECT_DIR$/src/chapter1/rentalshop/CustomerTest.java" />
+        <option value="$PROJECT_DIR$/src/chapter1/Rental.java" />
+        <option value="$PROJECT_DIR$/src/chapter1/Movie.java" />
+        <option value="$PROJECT_DIR$/src/chapter1/Customer.java" />
+        <option value="$PROJECT_DIR$/src/chapter1/CustomerTest.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="31" />
-    <option name="y" value="25" />
+  <component name="ProjectFrameBounds">
+    <option name="y" value="24" />
     <option name="width" value="1889" />
-    <option name="height" value="980" />
+    <option name="height" value="977" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -163,13 +183,6 @@
             </path>
             <path>
               <item name="Refactoring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Refactoring" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter1" type="462c0819:PsiDirectoryNode" />
-              <item name="rentalshop" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Refactoring" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
@@ -187,7 +200,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546708140401" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546768280105" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="create.test.in.the.same.root" value="true" />
@@ -196,6 +209,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="chapter1" />
       <recent name="chapter1.rentalshop" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -203,6 +217,9 @@
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -217,13 +234,28 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.CustomerTest">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+  <component name="RunManager" selected="JUnit.CustomerTest (1)">
+    <configuration name="All in Refactoring" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
       <module name="Refactoring" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CustomerTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Refactoring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chapter1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="chapter1" />
+      <option name="MAIN_CLASS_NAME" value="chapter1.CustomerTest" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -232,7 +264,7 @@
       <module name="Refactoring" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chapter1.rentalshop.*" />
+          <option name="PATTERN" value="chapter1.rentalshop.price.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -242,11 +274,43 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CustomerTest.addRentalTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Refactoring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chapter1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="chapter1" />
+      <option name="MAIN_CLASS_NAME" value="chapter1.CustomerTest" />
+      <option name="METHOD_NAME" value="addRentalTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CustomerTest.statement" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Refactoring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chapter1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="chapter1" />
+      <option name="MAIN_CLASS_NAME" value="chapter1.CustomerTest" />
+      <option name="METHOD_NAME" value="statement" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CustomerTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Refactoring" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chapter1.rentalshop.*" />
+          <option name="PATTERN" value="chapter1.rentalshop.price.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -259,14 +323,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Main" />
       <item itemvalue="JUnit.CustomerTest.test" />
       <item itemvalue="JUnit.CustomerTest" />
+      <item itemvalue="JUnit.All in Refactoring" />
+      <item itemvalue="JUnit.CustomerTest.statement" />
+      <item itemvalue="JUnit.CustomerTest (1)" />
+      <item itemvalue="JUnit.CustomerTest.addRentalTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.CustomerTest" />
+        <item itemvalue="JUnit.CustomerTest (1)" />
+        <item itemvalue="JUnit.CustomerTest.addRentalTest" />
+        <item itemvalue="JUnit.CustomerTest.statement" />
         <item itemvalue="JUnit.CustomerTest.test" />
+        <item itemvalue="JUnit.CustomerTest" />
       </list>
     </recent_temporary>
   </component>
@@ -280,32 +350,45 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1546703283642</updated>
-      <workItem from="1546703285353" duration="4668000" />
+      <workItem from="1546703285353" duration="5000000" />
+      <workItem from="1546736869650" duration="8309000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CustomerTest_test - 2019.01.06 at 01h 52m 21s.xml">
-      <configuration name="CustomerTest.test" configurationId="JUnit" />
+    <history-entry file="CustomerTest_(1) - 2019.01.06 at 18h 35m 29s.xml">
+      <configuration name="CustomerTest (1)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CustomerTest_test - 2019.01.06 at 01h 53m 47s.xml">
-      <configuration name="CustomerTest.test" configurationId="JUnit" />
+    <history-entry file="CustomerTest_(1) - 2019.01.06 at 18h 36m 01s.xml">
+      <configuration name="CustomerTest (1)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CustomerTest_test - 2019.01.06 at 01h 54m 29s.xml">
-      <configuration name="CustomerTest.test" configurationId="JUnit" />
+    <history-entry file="CustomerTest_(1) - 2019.01.06 at 18h 36m 33s.xml">
+      <configuration name="CustomerTest (1)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CustomerTest_test - 2019.01.06 at 01h 54m 58s.xml">
-      <configuration name="CustomerTest.test" configurationId="JUnit" />
+    <history-entry file="CustomerTest_(1) - 2019.01.06 at 18h 37m 10s.xml">
+      <configuration name="CustomerTest (1)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CustomerTest - 2019.01.06 at 01h 56m 23s.xml">
-      <configuration name="CustomerTest" configurationId="JUnit" />
+    <history-entry file="CustomerTest_(1) - 2019.01.06 at 18h 37m 57s.xml">
+      <configuration name="CustomerTest (1)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CustomerTest - 2019.01.06 at 02h 02m 27s.xml">
-      <configuration name="CustomerTest" configurationId="JUnit" />
+    <history-entry file="CustomerTest_statement - 2019.01.06 at 18h 38m 54s.xml">
+      <configuration name="CustomerTest.statement" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CustomerTest_(1) - 2019.01.06 at 18h 39m 21s.xml">
+      <configuration name="CustomerTest (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CustomerTest_(1) - 2019.01.06 at 18h 42m 53s.xml">
+      <configuration name="CustomerTest (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CustomerTest_addRentalTest - 2019.01.06 at 18h 47m 10s.xml">
+      <configuration name="CustomerTest.addRentalTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CustomerTest_addRentalTest - 2019.01.06 at 18h 49m 59s.xml">
+      <configuration name="CustomerTest.addRentalTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4668000" />
+    <option name="totallyTimeSpent" value="13309000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -317,74 +400,49 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1920" height="980" extended-state="6" />
+    <frame x="0" y="24" width="1889" height="977" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Designer" />
-      <window_info id="Image Layers" />
-      <window_info id="Capture Tool" />
-      <window_info id="UI Designer" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18051118" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18516514" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" weight="0.31235954" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Extract Method" weight="0.32921347" />
-      <window_info anchor="bottom" id="Messages" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32995495" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32995495" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3299435" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3289941" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.31299436" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3299435" />
+      <window_info anchor="bottom" id="Extract Method" order="11" weight="0.32921347" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Version Control" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/chapter1/package-info.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="13" selection-start-column="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapter1/rentalshop/Movie.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="31" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
-          <folding>
-            <element signature="e#399#400#0" expanded="true" />
-            <element signature="e#428#429#0" expanded="true" />
-            <element signature="e#472#473#0" expanded="true" />
-            <element signature="e#508#509#0" expanded="true" />
-            <element signature="e#575#576#0" expanded="true" />
-            <element signature="e#624#625#0" expanded="true" />
-            <element signature="e#668#669#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/chapter1/rentalshop/Rental.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="27" column="27" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
+        <state relative-caret-position="643">
+          <caret line="50" selection-start-line="50" selection-end-line="55" selection-end-column="5" />
           <folding>
             <element signature="e#265#266#0" expanded="true" />
             <element signature="e#294#295#0" expanded="true" />
@@ -398,27 +456,137 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter1/rentalshop/price/NewReleasePrice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="2" selection-start-line="5" selection-start-column="2" selection-end-line="10" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter1/rentalshop/price/RegularPrice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter1/rentalshop/price/Price.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter1/rentalshop/price/ChildrenPrice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter1/rentalshop/Customer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="36" column="39" selection-start-line="35" selection-start-column="7" selection-end-line="36" selection-end-column="86" />
+          <folding>
+            <element signature="e#257#258#0" expanded="true" />
+            <element signature="e#293#294#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter1/rentalshop/Movie.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="362">
+          <caret line="45" column="35" selection-start-line="45" selection-start-column="35" selection-end-line="45" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#604#605#0" expanded="true" />
+            <element signature="e#631#632#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/chapter1/rentalshop/CustomerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+        <state relative-caret-position="456">
+          <caret line="37" column="1" lean-forward="true" selection-start-line="37" selection-start-column="1" selection-end-line="37" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapter1/rentalshop/Customer.java">
+    <entry file="file://$PROJECT_DIR$/src/chapter1/package-info.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter1/Rental.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="365">
-          <caret line="36" column="8" selection-start-line="36" selection-start-column="8" selection-end-line="38" selection-end-column="123" />
+        <state relative-caret-position="255">
+          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
           <folding>
-            <element signature="e#212#213#0" expanded="true" />
-            <element signature="e#246#247#0" expanded="true" />
-            <element signature="e#293#294#0" expanded="true" />
-            <element signature="e#322#323#0" expanded="true" />
-            <element signature="e#361#362#0" expanded="true" />
-            <element signature="e#389#390#0" expanded="true" />
+            <element signature="e#250#251#0" expanded="true" />
+            <element signature="e#279#280#0" expanded="true" />
+            <element signature="e#313#314#0" expanded="true" />
+            <element signature="e#346#347#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter1/Movie.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="26" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+          <folding>
+            <element signature="e#387#388#0" expanded="true" />
+            <element signature="e#416#417#0" expanded="true" />
+            <element signature="e#533#534#0" expanded="true" />
+            <element signature="e#566#567#0" expanded="true" />
+            <element signature="e#618#619#0" expanded="true" />
+            <element signature="e#662#663#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Refactoring.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="403">
+          <caret line="27" column="19" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/chapter1/Movie.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter1/Customer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#174#175#0" expanded="true" />
+            <element signature="e#208#209#0" expanded="true" />
+            <element signature="e#240#241#0" expanded="true" />
+            <element signature="e#268#269#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter1/CustomerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="381">
+          <caret line="31" column="3" selection-start-line="31" selection-start-column="3" selection-end-line="31" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#577#578#0" expanded="true" />
+            <element signature="e#632#633#0" expanded="true" />
           </folding>
         </state>
       </provider>

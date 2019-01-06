@@ -1,9 +1,10 @@
-package chapter1.rentalshop;
+package chapter1;
 
 public class Movie {
-    public static final int  CHILDRENS = 2;
-    public static final int  REGULAR = 0;
-    public static final int  NEW_RELEASE = 1;
+
+    public static final int CHILDREN = 2;
+    public static final int REGULAR = 0;
+    public static final int NEW_RELEASE = 1;
 
     private String _title;
     private int _priceCode;
@@ -17,10 +18,6 @@ public class Movie {
         return _title;
     }
 
-    public void set_title(String _title) {
-        this._title = _title;
-    }
-
     public int get_priceCode() {
         return _priceCode;
     }
@@ -28,4 +25,5 @@ public class Movie {
     public void set_priceCode(int _priceCode) {
         this._priceCode = _priceCode;
     }
+
 }
