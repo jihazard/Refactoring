@@ -8,10 +8,11 @@ public class Movie {
 
     private String _title;
     private int _priceCode;
+    private Price price;
 
     public Movie(String _title, int _priceCode) {
         this._title = _title;
-        this._priceCode = _priceCode;
+       set_priceCode(_priceCode);
     }
 
     public String get_title() {
@@ -22,38 +23,28 @@ public class Movie {
         return _priceCode;
     }
 
-    public void set_priceCode(int _priceCode) {
-        this._priceCode = _priceCode;
+    public void set_priceCode(int arg) {
+       switch (arg){
+           case REGULAR:
+               price = new RegularPrice();
+               break;
+           case CHILDREN:
+               price = new ChildrenPrice();
+               break;
+           case NEW_RELEASE:
+               price = new NewReleasePrice();
+               break;
+               default:
+                   throw new IllegalArgumentException("가격 코드가 잘못됐스니다.");
+       }
     }
 
     public double getCharge(int daysRented) {
-
-        double result = 0;
-        switch (get_priceCode()){
-            case Movie.REGULAR:
-                result += 2;
-                if(daysRented > 2)
-                    result += (daysRented - 2 ) * 1.5;
-                break;
-            case Movie.NEW_RELEASE:
-                result += daysRented * 3;
-                break;
-            case Movie.CHILDREN :
-                result += 1.5;
-                if(daysRented > 3) {
-                    result += (daysRented - 3) *1.5;
-                }
-                break;
-        }
-        return result;
+        return price.getCharge(daysRented);
     }
 
     public int getFrequentRenterPoint(int daysRented) {
-
-        if((get_priceCode() == Movie.NEW_RELEASE) &&
-                daysRented > 1) return 2;
-
-        return 1;
+        return price.getFrequentrenterPoint(daysRented);
     }
 
 }
