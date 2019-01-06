@@ -5,7 +5,7 @@ import java.util.Vector;
 
 public class Customer {
     private String _name;
-    private Vector _rentals = new Vector();
+    public Vector _rentals = new Vector();
 
     public Customer(String _name) {
         this._name = _name;
@@ -30,22 +30,7 @@ public class Customer {
             double thisAmount = 0;
             Rental each = (Rental) rentals.nextElement();
 
-            switch (each.get_movie().get_priceCode()){
-                case Movie.REGULAR:
-                    thisAmount += 2;
-                    if(each.get_dayRented() > 2)
-                        thisAmount += (each.get_dayRented() - 2 ) * 1.5;
-                    break;
-                case Movie.NEW_RELEASE:
-                    thisAmount +=each.get_dayRented() * 3;
-                    break;
-                case Movie.CHILDREN :
-                    thisAmount += 1.5;
-                    if(each.get_dayRented() > 3) {
-                        thisAmount += (each.get_dayRented() - 3) *1.5;
-                    }
-                    break;
-            }
+            thisAmount = each.getCharge();
 
             //적립포인트
             frequentRenterPoint ++;

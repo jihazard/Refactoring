@@ -2,20 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2dd29f7b-dd25-4fbe-a32c-d346a9d0834e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter1/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter1/CustomerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter1/Movie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter1/Rental.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Refactoring/chapter1/rentalshop/Customer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Refactoring/chapter1/rentalshop/CustomerTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Refactoring/chapter1/rentalshop/Movie.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Refactoring/chapter1/rentalshop/Rental.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapter1/rentalshop/Customer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapter1/rentalshop/CustomerTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapter1/rentalshop/Movie.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapter1/rentalshop/Rental.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter1/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter1/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter1/CustomerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter1/CustomerTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -77,8 +66,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/chapter1/Customer.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="225">
-                  <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+                <state relative-caret-position="124">
+                  <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="71" />
                   <folding>
                     <element signature="imports" expanded="true" />
                     <element signature="e#174#175#0" expanded="true" />
@@ -106,8 +95,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/chapter1/CustomerTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="381">
-                  <caret line="31" column="3" selection-start-line="31" selection-start-column="3" selection-end-line="31" selection-end-column="3" />
+                <state relative-caret-position="224">
+                  <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
                   <folding>
                     <element signature="imports" expanded="true" />
                     <element signature="e#577#578#0" expanded="true" />
@@ -147,15 +136,16 @@
         <option value="$PROJECT_DIR$/src/chapter1/rentalshop/CustomerTest.java" />
         <option value="$PROJECT_DIR$/src/chapter1/Rental.java" />
         <option value="$PROJECT_DIR$/src/chapter1/Movie.java" />
-        <option value="$PROJECT_DIR$/src/chapter1/Customer.java" />
         <option value="$PROJECT_DIR$/src/chapter1/CustomerTest.java" />
+        <option value="$PROJECT_DIR$/src/chapter1/Customer.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="y" value="24" />
-    <option name="width" value="1889" />
-    <option name="height" value="977" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="217" />
+    <option name="y" value="23" />
+    <option name="width" value="1695" />
+    <option name="height" value="981" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -200,7 +190,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546768280105" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546773504829" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="create.test.in.the.same.root" value="true" />
@@ -234,7 +224,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.CustomerTest (1)">
+  <component name="RunManager" selected="JUnit.CustomerTest">
     <configuration name="All in Refactoring" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
       <module name="Refactoring" />
       <option name="PACKAGE_NAME" value="" />
@@ -246,35 +236,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CustomerTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Refactoring" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="chapter1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="chapter1" />
-      <option name="MAIN_CLASS_NAME" value="chapter1.CustomerTest" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="CustomerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Refactoring" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chapter1.rentalshop.price.*" />
+          <option name="PATTERN" value="chapter1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="chapter1.rentalshop" />
-      <option name="MAIN_CLASS_NAME" value="chapter1.rentalshop.CustomerTest" />
+      <option name="PACKAGE_NAME" value="chapter1" />
+      <option name="MAIN_CLASS_NAME" value="chapter1.CustomerTest" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CustomerTest.addRentalTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CustomerTest.amountForTestChildren" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Refactoring" />
       <extension name="coverage">
         <pattern>
@@ -284,7 +260,39 @@
       </extension>
       <option name="PACKAGE_NAME" value="chapter1" />
       <option name="MAIN_CLASS_NAME" value="chapter1.CustomerTest" />
-      <option name="METHOD_NAME" value="addRentalTest" />
+      <option name="METHOD_NAME" value="amountForTestChildren" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CustomerTest.amountForTestNewRelease" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Refactoring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chapter1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="chapter1" />
+      <option name="MAIN_CLASS_NAME" value="chapter1.CustomerTest" />
+      <option name="METHOD_NAME" value="amountForTestNewRelease" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CustomerTest.amountForTestRegular" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Refactoring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chapter1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="chapter1" />
+      <option name="MAIN_CLASS_NAME" value="chapter1.CustomerTest" />
+      <option name="METHOD_NAME" value="amountForTestRegular" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -306,37 +314,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CustomerTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Refactoring" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="chapter1.rentalshop.price.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="chapter1.rentalshop" />
-      <option name="MAIN_CLASS_NAME" value="chapter1.rentalshop.CustomerTest" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="JUnit.CustomerTest.test" />
-      <item itemvalue="JUnit.CustomerTest" />
       <item itemvalue="JUnit.All in Refactoring" />
+      <item itemvalue="JUnit.CustomerTest.amountForTestRegular" />
+      <item itemvalue="JUnit.CustomerTest.amountForTestChildren" />
+      <item itemvalue="JUnit.CustomerTest.amountForTestNewRelease" />
       <item itemvalue="JUnit.CustomerTest.statement" />
-      <item itemvalue="JUnit.CustomerTest (1)" />
-      <item itemvalue="JUnit.CustomerTest.addRentalTest" />
+      <item itemvalue="JUnit.CustomerTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.CustomerTest (1)" />
-        <item itemvalue="JUnit.CustomerTest.addRentalTest" />
-        <item itemvalue="JUnit.CustomerTest.statement" />
-        <item itemvalue="JUnit.CustomerTest.test" />
         <item itemvalue="JUnit.CustomerTest" />
+        <item itemvalue="JUnit.CustomerTest.statement" />
+        <item itemvalue="JUnit.CustomerTest.amountForTestNewRelease" />
+        <item itemvalue="JUnit.CustomerTest.amountForTestChildren" />
+        <item itemvalue="JUnit.CustomerTest.amountForTestRegular" />
       </list>
     </recent_temporary>
   </component>
@@ -351,44 +343,44 @@
       <option name="presentableId" value="Default" />
       <updated>1546703283642</updated>
       <workItem from="1546703285353" duration="5000000" />
-      <workItem from="1546736869650" duration="8309000" />
+      <workItem from="1546736869650" duration="11313000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CustomerTest_(1) - 2019.01.06 at 18h 35m 29s.xml">
-      <configuration name="CustomerTest (1)" configurationId="JUnit" />
+    <history-entry file="CustomerTest_amountForTestNewRelease - 2019.01.06 at 20h 03m 59s.xml">
+      <configuration name="CustomerTest.amountForTestNewRelease" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CustomerTest_(1) - 2019.01.06 at 18h 36m 01s.xml">
-      <configuration name="CustomerTest (1)" configurationId="JUnit" />
+    <history-entry file="CustomerTest_amountForTestNewRelease - 2019.01.06 at 20h 04m 13s.xml">
+      <configuration name="CustomerTest.amountForTestNewRelease" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CustomerTest_(1) - 2019.01.06 at 18h 36m 33s.xml">
-      <configuration name="CustomerTest (1)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CustomerTest_(1) - 2019.01.06 at 18h 37m 10s.xml">
-      <configuration name="CustomerTest (1)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CustomerTest_(1) - 2019.01.06 at 18h 37m 57s.xml">
-      <configuration name="CustomerTest (1)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CustomerTest_statement - 2019.01.06 at 18h 38m 54s.xml">
+    <history-entry file="CustomerTest_statement - 2019.01.06 at 20h 07m 52s.xml">
       <configuration name="CustomerTest.statement" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CustomerTest_(1) - 2019.01.06 at 18h 39m 21s.xml">
-      <configuration name="CustomerTest (1)" configurationId="JUnit" />
+    <history-entry file="CustomerTest_statement - 2019.01.06 at 20h 08m 23s.xml">
+      <configuration name="CustomerTest.statement" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CustomerTest_(1) - 2019.01.06 at 18h 42m 53s.xml">
-      <configuration name="CustomerTest (1)" configurationId="JUnit" />
+    <history-entry file="CustomerTest_statement - 2019.01.06 at 20h 08m 46s.xml">
+      <configuration name="CustomerTest.statement" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CustomerTest_addRentalTest - 2019.01.06 at 18h 47m 10s.xml">
-      <configuration name="CustomerTest.addRentalTest" configurationId="JUnit" />
+    <history-entry file="CustomerTest_statement - 2019.01.06 at 20h 09m 17s.xml">
+      <configuration name="CustomerTest.statement" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CustomerTest_addRentalTest - 2019.01.06 at 18h 49m 59s.xml">
-      <configuration name="CustomerTest.addRentalTest" configurationId="JUnit" />
+    <history-entry file="CustomerTest_statement - 2019.01.06 at 20h 09m 28s.xml">
+      <configuration name="CustomerTest.statement" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CustomerTest_statement - 2019.01.06 at 20h 09m 54s.xml">
+      <configuration name="CustomerTest.statement" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CustomerTest_statement - 2019.01.06 at 20h 10m 14s.xml">
+      <configuration name="CustomerTest.statement" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CustomerTest - 2019.01.06 at 20h 10m 23s.xml">
+      <configuration name="CustomerTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13309000" />
+    <option name="totallyTimeSpent" value="16313000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -400,10 +392,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="24" width="1889" height="977" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1920" height="982" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18516514" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18210863" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -412,15 +403,15 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32995495" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3299435" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32921347" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3289941" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.31299436" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.31123596" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.3299435" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32921347" />
       <window_info anchor="bottom" id="Extract Method" order="11" weight="0.32921347" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="bottom" id="Version Control" order="13" />
@@ -565,28 +556,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter1/CustomerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#577#578#0" expanded="true" />
+            <element signature="e#632#633#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/chapter1/Customer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+        <state relative-caret-position="124">
+          <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="71" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#174#175#0" expanded="true" />
             <element signature="e#208#209#0" expanded="true" />
             <element signature="e#240#241#0" expanded="true" />
             <element signature="e#268#269#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapter1/CustomerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="381">
-          <caret line="31" column="3" selection-start-line="31" selection-start-column="3" selection-end-line="31" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#577#578#0" expanded="true" />
-            <element signature="e#632#633#0" expanded="true" />
           </folding>
         </state>
       </provider>
